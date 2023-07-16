@@ -1,6 +1,8 @@
 ﻿using Kemensos.Siks.UsulanDtks.Application.Commands.PkhProses;
 using Microsoft.AspNetCore.Mvc;
 using Kemensos.Siks.UsulanDtks.Domain.Pkh;
+using Kemensos.Siks.UsulanDtks.Application.Commands.PkhListIndividu;
+using Kemensos.Siks.UsulanDtks.Application.Commands.RegistrasiIndividu;
 
 namespace Kemensos.Siks.UsulanDtks.Presentation.Controllers;
 
@@ -17,7 +19,7 @@ public class PkhController : ControllerBase
   }
 
   [HttpPost]
-  public JsonResult Pkh([FromForm] PkhRequest appRequest)
+  public JsonResult Pkh ([FromForm] PkhRequest appRequest)
   {
     var response = new AppResponseMessage();
 

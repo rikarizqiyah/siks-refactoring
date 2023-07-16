@@ -1,5 +1,4 @@
-﻿using System;
-using Kemensos.Siks.UsulanDtks.Domain.Individu;
+﻿using Kemensos.Siks.UsulanDtks.Domain.Individu;
 
 namespace Kemensos.Siks.UsulanDtks.Application.Commands.RegistrasiIndividu;
 
@@ -60,4 +59,3 @@ public class RegistrasiIndividuCommand
         return individuBaru;
     }
 }
-
